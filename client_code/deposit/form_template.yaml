@@ -5,7 +5,7 @@ container:
     role: null, html: ''}
 components:
 - type: ColumnPanel
-  properties: {role: card}
+  properties: {role: card, background: 'theme:Gray 50'}
   name: card_1
   layout_properties: {slot: default}
   components:
@@ -17,8 +17,8 @@ components:
     - name: image_1_copy_copy
       properties: {role: null, vertical_align: center, height: 44.80000305175781,
         tooltip: '', border: '', foreground: '', visible: true, display_mode: shrink_to_fit,
-        spacing_above: small, source: _/theme/GW-logo.jpg, spacing_below: small, background: white,
-        horizontal_align: right}
+        spacing_above: small, source: _/theme/logo-g.png, spacing_below: small, background: 'theme:Gray
+          50', horizontal_align: right}
       type: Image
       layout_properties: {width: 89.19999694824219}
     - name: label_7_copy_2_copy
