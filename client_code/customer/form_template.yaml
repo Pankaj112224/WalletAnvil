@@ -10,13 +10,13 @@ components:
   layout_properties: {slot: nav-right}
   components:
   - name: flow_panel_1
-    properties: {}
+    properties: {align: left}
     type: FlowPanel
     components:
     - name: image_1_copy
       properties: {role: null, vertical_align: center, height: 44.80000305175781,
         tooltip: '', border: '', foreground: '', visible: true, display_mode: shrink_to_fit,
-        spacing_above: small, source: _/theme/GW-logo.jpg, spacing_below: small, background: white,
+        spacing_above: small, source: _/theme/logo-g.png, spacing_below: small, background: white,
         horizontal_align: right}
       type: Image
       layout_properties: {width: 89.19999694824219}
@@ -69,6 +69,7 @@ components:
         type: Link
         layout_properties: {grid_position: 'MNPBPI,LADGEM'}
         event_bindings: {click: link_13_click}
+    layout_properties: {}
   - name: xy_panel_1
     properties: {height: 294.79998779296875, spacing_above: large, spacing_below: large}
     type: XYPanel
@@ -183,7 +184,7 @@ components:
         a safer alternative.', align: center, italic: true, background: '', foreground: '#216aa3',
       font_size: 18, font: a, bold: true}
     type: Label
-    layout_properties: {grid_position: 'OGHSLE,ESOOEH'}
+    layout_properties: {grid_position: 'OGHSLE,ESOOEH', full_width_row: true}
   - name: spacer_2
     properties: {height: 216}
     type: Spacer
@@ -191,9 +192,9 @@ components:
   - name: outlined_card_3
     properties: {role: null, tooltip: '', border: '', foreground: '', visible: true,
       wrap_on: mobile, col_spacing: none, spacing_above: none, col_widths: '{}', spacing_below: none,
-      background: 'theme:Dark Overlay 2'}
+      background: 'theme:Gray 300'}
     type: ColumnPanel
-    layout_properties: {grid_position: 'GLYBGT,EDAODQ', full_width_row: true}
+    layout_properties: {grid_position: 'GLYBGT,EDAODQ', full_width_row: true, row_background: ''}
     components:
     - name: label_10_copy
       properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
@@ -330,7 +331,7 @@ components:
         wrap_on: mobile, col_spacing: none, spacing_above: none, col_widths: '{"VMILPR":8,"FDANOO":15,"HAKDVS":15}',
         spacing_below: none, background: '#2270ad'}
       type: ColumnPanel
-      layout_properties: {grid_position: 'EHORZH,SGAMOJ'}
+      layout_properties: {grid_position: 'EHORZH,SGAMOJ', full_width_row: true}
       components:
       - name: label_1_copy
         properties: {text: CopyRight2023@Gwallet, align: left, bold: false, font_size: 12,
