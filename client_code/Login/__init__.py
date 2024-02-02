@@ -13,6 +13,7 @@ class Login(LoginTemplate):
       # 13 is the key code for Enter key
     def text_box_2_pressed_enter(self, **event_args):
         self.button_1_click()  
+      
 
     def button_1_click(self, **event_args):
         
